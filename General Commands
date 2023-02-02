@@ -18,3 +18,7 @@ chkconfig telnet off
 
 //to stop a process
 kill <processName>
+
+//to process list
+ps aux | less
+CTRL+Z   // to exit the command
