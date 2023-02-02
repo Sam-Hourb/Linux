@@ -1,0 +1,5 @@
+// to see a list of services and their status 
+service --status all
+
+// to list upstart jobs with their status
+initctl list
