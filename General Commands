@@ -15,3 +15,6 @@ service <serviceName> stop
 
 //some service require different set of syntax for stopping a service for example for telnet we use the following command
 chkconfig telnet off
+
+//to stop a process
+kill <processName>
