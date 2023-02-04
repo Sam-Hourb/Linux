@@ -1,5 +1,9 @@
 //to shutdown ubuntu
-sudo shutdown -h
+sudo shutdown -h now
+
+// to reset ubuntu 
+sudo shutdown -r new
+
 
 // to change hostname ( computer name )
 hostnamectl set-hostname <newName>
@@ -31,7 +35,8 @@ ps aux | less
 CTRL+Z   // to exit the command
 
 // to see the date
-date
+date  //or
+timedatectl   //to see more information about date
 
 // to change time zone
 sudo dpkg-reconfigure tzdata
@@ -39,4 +44,5 @@ sudo dpkg-reconfigure tzdata
 //tp change time zone (second version)
 timedatectl list-timezones  //to see a list of time zone and copy it to memory (CTRL+SHIFT+C)
 timedatectl set-timezone <timezone>  // past the copied time zone (CTRL+SHIFT+V)
+
 
