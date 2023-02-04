@@ -1,3 +1,7 @@
+//to shutdown ubuntu
+sudo shutdown -h now
+
+
 // to see a list of services and their status 
 service --status all
 
