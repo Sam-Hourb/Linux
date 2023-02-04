@@ -1,5 +1,8 @@
 //to shutdown ubuntu
-sudo shutdown -h now
+sudo shutdown -h
+
+// to change hostname ( computer name )
+hostnamectl set-hostname <newName>
 
 
 // to see a list of services and their status 
