@@ -29,3 +29,6 @@ kill <processName>
 //to process list
 ps aux | less
 CTRL+Z   // to exit the command
+
+// to see the date
+date
