@@ -32,3 +32,11 @@ CTRL+Z   // to exit the command
 
 // to see the date
 date
+
+// to change time zone
+sudo dpkg-reconfigure tzdata
+
+//tp change time zone (second version)
+timedatectl list-timezones  //to see a list of time zone and copy it to memory (CTRL+SHIFT+C)
+timedatectl set-timezone <timezone>  // past the copied time zone (CTRL+SHIFT+V)
+
