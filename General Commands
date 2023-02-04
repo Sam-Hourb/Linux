@@ -2,7 +2,7 @@
 sudo shutdown -h now
 
 // to reset ubuntu 
-sudo shutdown -r new
+sudo shutdown -r now
 
 
 // to change hostname ( computer name )
