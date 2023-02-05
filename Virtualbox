@@ -1,1 +1,10 @@
+// to add guest addition to ubuntu virtual machine
+sudo apt update
+sudo apt upgrade
+reboot
+sudo apt install gcc make perl
+from devices menu click insert guest addtion cd image
+cd /media/<userName>/<nameofCDRom>/
+sudo sh ./VBoxLinuxAdditions.run
+
 
