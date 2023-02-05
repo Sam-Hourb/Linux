@@ -4,6 +4,9 @@ sudo shutdown -h now
 // to reset ubuntu 
 sudo shutdown -r now
 
+//to reset 
+reboot
+
 
 // to change hostname ( computer name )
 hostnamectl set-hostname <newName>
