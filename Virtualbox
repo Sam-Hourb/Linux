@@ -4,7 +4,7 @@ sudo apt upgrade
 reboot
 sudo apt install gcc make perl
 from devices menu click insert guest addtion cd image
-cd /media/<userName>/<nameofCDRom>/
+cd /media/<userName>/<nameofCDRom>/   //path to CDROM drive
 sudo sh ./VBoxLinuxAdditions.run
 
 
