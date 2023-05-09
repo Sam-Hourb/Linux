@@ -1,3 +1,9 @@
+// to update
+sudo apt update
+
+// to upgrade fully
+sudo apt full-upgrade
+
 //to shutdown ubuntu
 sudo shutdown -h now
 
